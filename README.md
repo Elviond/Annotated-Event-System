@@ -20,6 +20,7 @@ public void onEvent(Event event) {
 ```
 
 ## Event Usage
+The EventExample will be called once this instruction will be executed
 ```java
 EventSystem.getInstance(EventExample.class).fire();
 ```
