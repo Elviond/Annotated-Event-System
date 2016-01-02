@@ -1,8 +1,7 @@
-package me.elviond.client.event.impl;
+package event.impl;
 
-import me.elviond.client.event.Event;
-import net.minecraft.network.Packet;
+import event.Event;
 
 public class EventTick extends Event {
-	
+
 }

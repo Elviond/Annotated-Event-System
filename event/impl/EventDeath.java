@@ -1,6 +1,6 @@
-package me.elviond.client.event.impl;
+package event.impl;
 
-import me.elviond.client.event.Event;
+import event.Event;
 
 public class EventDeath extends Event {
 
