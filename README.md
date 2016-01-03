@@ -5,7 +5,7 @@ Initialy made for minecraft clients.
 ## Register an event
 Just add an annotation to your method which will be called when the event will be fired
 ```java
-@RegisterEvent(events = { EventExample })
+@RegisterEvent(events = { EventExample.class })
 public void onEvent(Event event) {
   //Do something
 }
@@ -13,7 +13,7 @@ public void onEvent(Event event) {
 
 You can also call multiple events
 ```java
-@RegisterEvent(events = { EventExample, AnotherEventExample.class })
+@RegisterEvent(events = { EventExample.class, AnotherEventExample.class })
 public void onEvent(Event event) {
   //Do something
 }
